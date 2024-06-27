@@ -14,9 +14,17 @@
 }
 .btn {
   display: inline-block;
-  background: #D42990;
-  padding: 10px 16px;
-  border-radius: 10px;
+  background: rgba(70, 130, 180, 1); /* Initial button color matching the gradient start color */
+  padding: 12px 20px; /* Slightly larger padding for better touch targets */
+  border-radius: 5px; /* Subtle rounding for a modern look */
   margin-top: 20px;
-  font-weight: 500;
+  font-weight: 600; /* Slightly bolder font weight for emphasis */
+  color: #fff; /* White text for better contrast */
+  text-align: center; /* Center-align text */
+  text-decoration: none; /* Remove underline from links */
+  transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+  background: rgba(34, 139, 34, 1); /* Button hover color matching the gradient end color */
 }

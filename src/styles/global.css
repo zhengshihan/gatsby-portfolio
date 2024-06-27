@@ -9,15 +9,29 @@
 }
 html, body {
   min-height: 100%;
+  font-size: 20px;
 }
 body {
-  background: radial-gradient(at top left, rgba(146,43,225,1) 0%, rgba(43,9,107,1) 100%);
+  background: radial-gradient(at top left, rgba(70, 130, 180, 1) 0%, rgba(34, 139, 34, 1) 100%);
   background-repeat: no-repeat;
 }
-p {
+
+/* p {
   margin: 16px auto;
   line-height: 1.5em;
+} */
+p {
+  margin: 2.5rem auto; /* 1rem is relative to the root font size */
+  line-height: 1.6; /* Slightly increased for better readability */
 }
+
+@media (max-width: 600px) {
+  p {
+    margin: 0.5rem auto; /* Reduced margin for smaller screens */
+    line-height: 1.4; /* Slightly reduced line height for smaller screens */
+  }
+}
+
 
 /* layout & nav */
 .layout {
