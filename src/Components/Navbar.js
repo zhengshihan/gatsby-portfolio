@@ -6,16 +6,16 @@ export default function Navbar() {
     query MyQuery {
       site {
         siteMetadata {
-          copyright
+          title
         }
       }
     }
   `);
 
-  const { copyright } = data.site.siteMetadata;
+  const { title } = data.site.siteMetadata;
   return (
     <nav>
-      <h1>{copyright}</h1>
+      <h1>{title}</h1>
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>

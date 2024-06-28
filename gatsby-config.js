@@ -9,10 +9,11 @@
  */
 module.exports = {
   plugins: [
-    'gatsby-transformer-remark',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-    
+    "gatsby-transformer-remark",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-image",
+    "gatsby-transformer-sharp",
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -31,12 +32,13 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
-    
   ],
   siteMetadata: {
-    title: 'web',
-    description: ' this is a web ',
-    copyright: 'this is a coptright',
-    contact: 'zhengshihan1998@outlook.com'
-  }
-}
+    title: "Nature & Code Haven",
+    description:
+      "A sanctuary for nature enthusiasts and coding aficionados. Explore captivating nature content and cutting-edge coding tutorials in one place.",
+    copyright: "© 2024 Nature & Code Haven. All rights reserved.",
+    contact: "zhengshihan1998@outlook.com",
+    bottom: "© 2024 Nature & Code Haven. All rights reserved.",
+  },
+};
