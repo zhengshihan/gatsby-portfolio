@@ -10,8 +10,8 @@ export default function Projects({ data }) {
   return (
     <Layout>
       <div className={styles.portfolio}>
-        <h2>My Gallery</h2>
-        <h3>This is my gallery</h3>
+        <h2>My Projects</h2>
+        <h3>These are my projects</h3>
         <div className={styles.projects}>
           {projects.map((project) => (
             <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
@@ -21,6 +21,7 @@ export default function Projects({ data }) {
                   alt={project.frontmatter.slug}
                 />
                 <h3>{project.frontmatter.title}</h3>
+                <h3>{project.frontmatter.stack}</h3>
                 <h3>{project.frontmatter.date}</h3>
               </div>
             </Link>
@@ -38,6 +39,7 @@ export const query = graphql`
         frontmatter {
           slug
           title
+          stack
           date(formatString: "YYYY-MM-DD")
           thumb {
             childImageSharp {

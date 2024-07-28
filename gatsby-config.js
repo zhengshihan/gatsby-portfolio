@@ -32,13 +32,31 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800, // 图片最大宽度
+              linkImagesToOriginal: false, // 点击不链接到原始图片
+              // Show image captions
+              showCaptions: true,
+            },
+          },
+        ],
+      },
+    },
   ],
   siteMetadata: {
-    title: "Nature & Code Haven",
+    title: "CodeVoyage",
     description:
       "A sanctuary for nature enthusiasts and coding aficionados. Explore captivating nature content and cutting-edge coding tutorials in one place.",
-    copyright: "© 2024 Nature & Code Haven. All rights reserved.",
+    copyright: "© 2024 CodeVoyage. All rights reserved.",
     contact: "zhengshihan1998@outlook.com",
-    bottom: "© 2024 Nature & Code Haven. All rights reserved.",
+    bottom: "© 2024 CodeVoyage. All rights reserved.",
   },
 };

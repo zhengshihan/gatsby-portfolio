@@ -10,22 +10,21 @@ export default function Home({ data }) {
       <section className={styles.header}>
         <div>
           <h2>Welcome to My Blog</h2>
-          <h3>Discover the World</h3>
+          <h3>Explore the World of Code</h3>
           <p>
-            Hi, I'm Shihan Zheng, an aspiring software developer and amateur
-            photographer.
+            Hi, I'm Shihan Zheng, a passionate software developer with a love
+            for technology and innovation.
           </p>
           <p>
-            This blog is a mix of my journey through the world of coding and my
-            passion for capturing meaningful moments. Whether it's a piece of
-            code or a snapshot of nature, I'm here to share it with you.
+            This blog chronicles my adventures in the coding world and shares
+            insights from my personal growth journey.
           </p>
           <Link to="/Projects" className={styles.btn}>
             {" "}
             My Portfolio{" "}
           </Link>
         </div>
-        <GatsbyImage image={image} alt="Banner" />
+        <GatsbyImage image={image} alt="Banner" className={styles.banner} />
       </section>
     </Layout>
   );

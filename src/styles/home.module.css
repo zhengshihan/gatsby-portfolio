@@ -1,3 +1,7 @@
+body{
+  margin :2em;
+}
+
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -27,4 +31,15 @@
 
 .btn:hover {
   background: rgba(34, 139, 34, 1); /* Button hover color matching the gradient end color */
+}
+.banner{
+display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease; /* Optional: Add a fade-out effect */
+}
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  .banner{
+    display: none; /* Hides the image */
+  }
 }
