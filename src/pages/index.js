@@ -9,8 +9,8 @@ export default function Home({ data }) {
     <Layout>
       <section className={styles.header}>
         <div>
-          <h2>Welcome to My Blog</h2>
-          <h3>Explore the World of Code</h3>
+          <h3>Welcome to My Blog</h3>
+          <h4>Explore the World of Code</h4>
           <p>
             Hi, I'm Shihan Zheng, a passionate software developer with a love
             for technology and innovation.

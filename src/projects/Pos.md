@@ -13,6 +13,8 @@ featuredImg: ../images/featured/store-banner.png
 ## Overview
 
 Welcome to the **Clothing Store POS (Point of Sale) Application**, a C# WinForms-based software solution specifically designed for clothing retail businesses. This application simplifies the sales process by providing an intuitive and efficient interface to manage transactions, generate sales reports, and maintain customer satisfaction.
+[Github Link:](https://github.com/zhengshihan/EPOS)
+
 
 ## Key Features
 

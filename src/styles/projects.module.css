@@ -1,26 +1,111 @@
 .portfolio {
   text-align: center;
+  padding: 0 20px; /* Added padding for better responsiveness on small screens */
+}
+.portfolio p {
+  overflow-wrap: break-word; /* 允许长单词换行 */
+  word-break: break-word; /* 强制长单词换行 */
+  hyphens: auto; /* 自动换行 */
+  text-align: center; /* 可选：让文本居中 */
 }
 .portfolio > h2 {
   font-size: 3em;
   margin-top: 80px;
 }
+
 .portfolio > h3 {
   font-size: 2em;
   font-weight: 400;
 }
+
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  grid-gap: 40px; /* Reduced gap for better fit on smaller screens */
   margin: 80px 20px;
 }
+
 .projects h3 {
   text-align: center;
   margin: 20px auto 0px;
   font-weight: 500;
 }
+
 .projects p {
   color: #ccc;
   margin-top: 4px;
+}
+
+
+
+.filterContainer {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filterInput {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1em;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.contact {
+  word-break: break-word;
+}
+/* Media Queries for Responsive Design */
+
+/* Large screens */
+@media (min-width: 1200px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for large screens */
+    grid-gap: 80px;
+  }
+
+  .portfolio > h2 {
+    font-size: 3.5em; /* Larger text for bigger screens */
+  }
+
+  .portfolio > h3 {
+    font-size: 2.5em;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    grid-gap: 60px;
+  }
+
+  .portfolio > h2 {
+    font-size: 3em; /* Adjust font size */
+  }
+
+  .portfolio > h3 {
+    font-size: 2em;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+  .projects {
+    grid-template-columns: 1fr; /* 1 column for phones */
+    grid-gap: 40px;
+    margin: 40px 10px; /* Smaller margins for mobile */
+  }
+
+  .portfolio > h2 {
+    font-size: 2em; /* Smaller text for smaller screens */
+    margin-top: 40px;
+  }
+
+  .portfolio > h3 {
+    font-size: 1.5em;
+  }
 }

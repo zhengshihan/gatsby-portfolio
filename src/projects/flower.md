@@ -1,8 +1,8 @@
 ---
 title: Flower Ordering Website
-stack: React & .NET Core
+stack: React & .NET Core(C#)
 slug: flower-ordering-website
-date: 2024-07-29
+date: 2023-10-29
 thumb: ../images/thumbs/flower.png
 featuredImg: ../images/featured/flower-banner.png
 ---
@@ -12,6 +12,8 @@ featuredImg: ../images/featured/flower-banner.png
 ## Introduction
 
 Welcome to the **Flower Ordering Website**! 🌺 This platform offers a delightful and seamless experience for purchasing flowers online. Whether you're looking for the perfect bouquet or managing orders, our site is designed to meet all your floral needs with ease and efficiency.
+[Frontend Github Link:](https://github.com/zhengshihan/flowerwebfe)
+[Backend Github Link:](https://github.com/zhengshihan/flowerWeb)
 
 ---
 
@@ -34,10 +36,9 @@ Welcome to the **Flower Ordering Website**! 🌺 This platform offers a delightf
 ## Technology Stack
 
 - **Frontend**: React 🌐
-- **Backend**: .NET Core 🖥️
-- **Data Access**: SQL Sugar
+- **Backend**:  ASP.NET Core(.NET 6) 🖥️
 - **Database**: SQL Server 🗄️
-- **ORM**: Entity Framework Core
+- **ORM**: SQL Sugar
 - **Authentication**: JWT Bearer
 
 ---
@@ -57,19 +58,14 @@ Our backend is powered by **.NET Core**, ensuring high performance and scalabili
 - **SQL Sugar**: This lightweight ORM simplifies database interactions, making it easy to execute complex queries and manage data.
 - **SQL Server**: Our choice of database ensures reliable data storage and retrieval, supporting robust operations and transactions.
 
-### 4. Entity Framework Core
 
-The application leverages **Entity Framework Core** for efficient data manipulation and access. It streamlines the management of database schemas, relationships, and CRUD operations.
-
-### 5. JWT Bearer Authentication
+### 4. JWT Bearer Authentication
 
 We implement **JWT Bearer Authentication** to secure user sessions and data transmission. This ensures that all interactions are encrypted and protected against unauthorized access.
 
 ---
 
 ## Development Environment
-
-
 - **Version Control**: Git 📂
 - **IDE**: Visual Studio 💻
 
