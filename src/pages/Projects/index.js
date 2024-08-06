@@ -39,7 +39,7 @@ export default function Projects({ data }) {
                   alt={project.frontmatter.slug}
                 />
                 <h3>{project.frontmatter.title}</h3>
-                <h3>{project.frontmatter.stack}</h3>
+                {/* <h3>{project.frontmatter.stack}</h3> */}
                 <h3>{project.frontmatter.date}</h3>
               </div>
             </Link>
