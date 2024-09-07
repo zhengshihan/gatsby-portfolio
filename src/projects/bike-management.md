@@ -10,9 +10,10 @@ featuredImg: ../images/featured/Bike-banner.png
 # Island Bike Rental Management System
 
 ## Introduction
+[Website Link:](https://bike-rent-management.vercel.app/) https://bike-rent-management.vercel.app/
 
 The **Island Bike Rental Management System** is a modern web application designed for managing bike rentals on a picturesque island. This system caters to both administrators and users, providing robust features for bike management, order processing, and user authentication. Built using the **MERN stack** with **Material-UI**, **TailwindCSS**, and **Redux Toolkit**, it delivers a seamless and efficient experience for managing bike rentals.
-[Website Link:](https://bike-rent-management.vercel.app/)
+
 
 ## Features
 

@@ -1,6 +1,6 @@
 ---
 title: Flower Ordering Website
-stack: React & .NET Core(C#)
+stack: React & .NET Core(C#), Entity Framework(ORM)
 slug: flower-ordering-website
 date: 2023-10-29
 thumb: ../images/thumbs/flower.png

@@ -1,6 +1,6 @@
 ---
 title: Book Management System
-stack: Thymeleaf & Spring Boot
+stack: Thymeleaf & Spring Boot,Spring MVC, Java, Docker, Jenkis, Spring Security
 slug: the-book-management-system
 date: 2024-05-01
 thumb: ../images/thumbs/bookstore.png

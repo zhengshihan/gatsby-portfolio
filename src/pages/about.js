@@ -18,10 +18,13 @@ export default function about() {
           </p>
           <p>
             I specialize in full-stack development, particularly with{" "}
-            <strong>React</strong> and <strong>Spring Boot</strong>, which
-            allows me to create seamless, dynamic applications that are both
-            powerful and user-friendly. Additionally, I am skilled in modern
-            development tools and practices, including:
+            <strong>React</strong> and <strong>Spring Boot</strong>, and have
+            hands-on experience with microservices architecture and Kafka. I
+            believe in the importance of best practices like test-driven
+            development and CI/CD, and I strive to write quality code while
+            learning from mypeers. I'm always looking to improve my skills and
+            contribute to meaningful projects. Additionally, I am skilled in
+            modern development tools and practices, including:
           </p>
           <ul>
             <li>
@@ -43,26 +46,13 @@ export default function about() {
             <li>
               <strong>Cloud Platforms:</strong> AWS, Azure
             </li>
+            <li>
+              <strong>Testing:</strong> JUnit, Mockito, Jest
+            </li>
+            <li>
+              <strong>Messaging:</strong> Kafka
+            </li>
           </ul>
-          <p>
-            Throughout my academic and personal projects, I have honed my skills
-            in creating scalable, efficient, and robust applications. I am a
-            proactive learner, always eager to embrace new technologies and
-            methodologies that can enhance my development process.
-          </p>
-          <p>
-            I am now seeking opportunities to bring my expertise to a dynamic
-            team where I can contribute to impactful projects. I am particularly
-            excited about roles that allow me to innovate and collaborate with
-            like-minded professionals. My goal is to continuously grow as a
-            developer and help organizations succeed in the ever-evolving
-            digital landscape.
-          </p>
-          <p>
-            If you're looking for a driven and skilled developer to join your
-            team, let's connect! I'm ready to take on new challenges and
-            contribute my skills to create innovative solutions.
-          </p>
         </div>
       </Layout>
     </div>
